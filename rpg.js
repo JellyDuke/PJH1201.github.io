@@ -700,7 +700,7 @@ dungeonMenu.addEventListener("click", function (e) {
 
 // 새 플레이어 생성
 // var player = new Player(prompt("이름을 입력하세요."));
-var player = new Player("나나");
+var player = new Player("용사");
 
 
 // 게임 시작
