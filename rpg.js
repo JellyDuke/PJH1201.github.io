@@ -80,7 +80,8 @@ var monsterList = {
   0: [
     ["슬라임", 1, 40, 45, 10, 0],
     ["너구리", 2, 54, 52, 15, 20],
-    ["여우", 2, 61, 50, 20, 11]
+    ["여우", 2, 61, 50, 20, 11],
+    ["이찬영", 1, 5, 100, 20, 0],
   ],
   1: [
     ["늑대", 2, 70, 81, 28, 18],
@@ -700,7 +701,7 @@ dungeonMenu.addEventListener("click", function (e) {
 
 // 새 플레이어 생성
 // var player = new Player(prompt("이름을 입력하세요."));
-var player = new Player("용사");
+var player = new Player(prinotE("이름을 입력하세요."));
 
 
 // 게임 시작
